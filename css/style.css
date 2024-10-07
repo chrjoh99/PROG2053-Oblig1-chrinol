@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf) format('truetype');
+}
+
+h1, p, li {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background-color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(31, 41, 54);
+    text-align: center;
+    border-bottom: 2px solid #273543;
+}
+
+.header-logo {
+    font-size: 1.4em;
+}
+
+li {
+    padding-top: 30px;
+    display: inline-block;
+  }
+
+a, a:link, a:visited {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.link-one {
+    font-weight: bold;
+}
+
+.top-section {
+    padding: 40px;
+    background-color: rgb(31, 41, 54);
+    color: black;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-left {
+    grid-area: 1/1/2/2;
+}
+
+.grid-right {
+    grid-area: 1/2/2/3;
+}
+
+.content {
+    text-align: left;
+    color: white;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.content-title {
+    font-family: 'Roboto-Bold';
+    display: inline-block;
+    font-size: 2.3em;
+
+}
+
+.content-text {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.content-button {
+    margin-top: 16px;
+    align-items: center;
+    background-color: rgb(56,132,244);
+    border: 3px solid rgb(56,132,244);
+    color: white;
+    padding: 4px 28px;
+    border-radius: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-placeholder {
+    background: rgb(109,115,125)
+    ;
+    margin-left: 0px;
+    padding: 120px 180px 120px 180px;
+    max-width: 64%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.image-placeholder-text {
+    margin-left: -30px;
+    margin-right: -70px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+.middle-title {
+    padding: 50px;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Roboto-Bold';
+}
+
+.middle-content-1 {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.empty-box-1 {
+    border: 6px solid rgb(55,128,244);
+    border-radius: 20px;
+    width: 400px;
+    height: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-text-1 {
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align-last: justify;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.middle-content-2 {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-direction: row-reverse;
+}
+
+.empty-box-2 {
+    border: 6px solid rgb(55,128,244);
+    border-radius: 20px;
+    width: 400px;
+    height: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-text-2 {
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align-last: justify;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.bottom-quote {
+    background-color: rgb(228,229,235);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding: 100px;
+}
+
+.bottom-quote-text {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 2.05em;
+    font-style: italic;
+    text-shadow: 1px 1px 10px rgb(112, 109, 109);
+}
+
+.bottom-quote-signature {
+    text-align: right;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.bottom-box-color {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    background-color: rgb(56,132,244);
+    margin-left: 22%;
+    margin-right: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    border-radius: 15px;
+}
+
+.bottom-box-left {
+    text-align: left;
+    color: white;
+    font-size: 1.3em;
+}
+
+.bottom-box-button {
+    align-items: center;
+    background-color: rgb(56,132,244);
+    color: white;
+    padding: 6px 30px;
+    border: 3px solid white;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 60px;
+    background: rgb(31, 41, 54);
+}
+
+.footer-text {
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
